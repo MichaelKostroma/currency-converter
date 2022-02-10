@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    color: black;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
