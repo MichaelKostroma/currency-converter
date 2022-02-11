@@ -5,7 +5,7 @@ import Routes from "./Routes";
 import './App.css';
 
 
-function App() {
+const App = () => {
 
   const [rates, setRates] = useState([]);
 

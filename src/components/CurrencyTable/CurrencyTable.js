@@ -15,7 +15,7 @@ const CurrencyTable = ({ currencies, format }) => {
     return (
         <div>
             <Select value={baseCurrency} onChange={ev => handleCurrencyChange(ev.target.value)} className="currencySelect">
-                {Object.keys(currencies).map((currency => <MenuItem key={currency} value={currency} className="currencyOption">{currency}</MenuItem>))}
+                {Object.keys(currencies).map((currency => <MenuItem key={currency} value={currency} className="currencyOption"> {currency} </MenuItem>))}
             </Select>
 
             <div className="currencyContainer">
