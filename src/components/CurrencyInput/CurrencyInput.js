@@ -1,4 +1,4 @@
-import './currencyInput.css';
+import './CurrencyInput.css';
 import {MenuItem, Select, TextField} from "@mui/material";
 
 const CurrencyInput = ({amount, onAmountChange, currency, onCurrencyChange, currencies}) => {
